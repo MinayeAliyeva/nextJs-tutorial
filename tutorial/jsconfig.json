@@ -1,8 +1,0 @@
-{
-  "compilerOptions": {
-    "baseUrl": ".", // Bütün faylların `jsconfig.json` ilə eyni qovluqda olduğunu bildirir.
-    "paths": {
-      "@/*": ["./*"] // `@/` prefixi ilə kök qovluqdakı (`./`) fayllara istinad edə bilərsən.
-    }
-  }
-}
