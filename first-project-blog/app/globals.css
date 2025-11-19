@@ -75,8 +75,16 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+  --bg-mycolor: oklch(59.547% 0.09089 232.62);
+  --bg-secondary: oklch(44.806% 0.10608 244.919 / 0.84);
 }
 
+@utility mysecondary {
+  background-color: var(--bg-mycolor);
+}
+@utility myPrimary {
+  background-color: var(--bg-secondary);
+}
 .dark {
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
